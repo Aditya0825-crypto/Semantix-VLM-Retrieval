@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Embeddings and FAISS
+embeddings/
+faiss_index/
+*.npy
+*.pkl
+*.faiss
+
+# Datasets
+dataset/
+datasets/
+Flickr30k/
+MSCOCO/
+
+# Node
+node_modules/
+
+# Build
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log

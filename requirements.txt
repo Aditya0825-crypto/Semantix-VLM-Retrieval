@@ -1,0 +1,28 @@
+# ======================================
+# Semantix — Python Dependencies
+# ======================================
+
+# --- Backend Framework ---
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+python-multipart==0.0.20
+
+# --- ML / Vision-Language Model ---
+open-clip-torch==2.29.0
+torch>=2.0.0
+torchvision>=0.15.0
+Pillow>=10.0.0
+
+# --- Vector Search ---
+faiss-cpu==1.11.0
+
+# --- Data / Scientific Computing ---
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# --- Visualization (optional UMAP) ---
+umap-learn>=0.5.0
+
+# --- Utilities ---
+pydantic>=2.0.0
+tqdm>=4.65.0

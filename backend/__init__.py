@@ -1,0 +1,1 @@
+# Semantix FastAPI Backend
